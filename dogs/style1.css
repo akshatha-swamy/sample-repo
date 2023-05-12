@@ -1,0 +1,111 @@
+ 
+ * {
+    box-sizing: border-box;
+ }
+ .background{
+    background-color: white;
+}
+h1{
+    text-align: center;
+    font-family: Alkatra;
+    text-transform: uppercase;
+    font-size:xx-large;
+    height: 70px;
+    width:100%;
+    padding:5px;
+    margin: 10px;
+    font-weight: 1000;
+   
+}
+label{
+    display: block;
+    margin:0 auto;
+    margin-bottom: 5px;
+}
+.intro{
+    width:70%;
+    background-color: #895d2fa8;
+    background-position: center;
+    color: black;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+   
+
+}
+input,select{
+    margin:10px 10px;
+    width:30%;
+    min-height: 2em;
+    background-color: beige;
+   
+    border:2px solid black ;
+    border-radius: 5px;
+}
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+input[type="submit"]{
+    min-height: 2em;
+    background-color: #422d16;
+    color: antiquewhite;
+    width: 20%;
+    min-width: 100px;
+    border: 2px solid antiquewhite;
+    font-size: larger;
+
+}
+input[type="submit"]:hover{
+    background-color: #2e1d0a;
+}
+p{
+    font-family: Delicious Handrawn;
+    font-size: x-large;
+}
+.purchase{
+    font-family: unset;
+    font-size: large;
+}
+.purchase a:hover{
+    color: #c5c4c3;
+}
+
+    
+
+ div .images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    max-width:1400px;
+    background-color: white;
+    margin:0 auto;
+    gap: 16px;
+
+    
+    
+}
+img{
+    width:100%;
+    max-width:350px;
+    height:300px;
+    object-fit: cover;
+    border-radius: 10px;
+    padding: 10px;
+    margin:10px;
+    border: 3px solid black;
+    
+}
+img:hover{
+    background-color: #895d2fa8;
+}
+
+.images::after{
+    content: "";
+    width: 350px;
+    
+}
